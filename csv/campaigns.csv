@@ -1,0 +1,14 @@
+campaign_id,campaign_name,start_date,end_date,max_discount_pct,scope,data_origin
+PR-001,Promo Awal Tahun,2024-01-10,2024-01-15,5,Semua kategori,PROMOSI SINTETIS: tanggal dan discount adalah asumsi simulasi
+PR-002,Promo Tengah Tahun,2024-06-15,2024-06-21,7,Semua kategori,PROMOSI SINTETIS: tanggal dan discount adalah asumsi simulasi
+PR-003,Promo Kemerdekaan,2024-08-14,2024-08-18,6,Semua kategori,PROMOSI SINTETIS: tanggal dan discount adalah asumsi simulasi
+PR-004,Harbolnas 11.11,2024-11-09,2024-11-12,9,Semua kategori,PROMOSI SINTETIS: tanggal dan discount adalah asumsi simulasi
+PR-005,Harbolnas 12.12,2024-12-10,2024-12-13,10,Semua kategori,PROMOSI SINTETIS: tanggal dan discount adalah asumsi simulasi
+PR-006,Promo Awal Tahun,2025-01-10,2025-01-15,5,Semua kategori,PROMOSI SINTETIS: tanggal dan discount adalah asumsi simulasi
+PR-007,Promo Tengah Tahun,2025-06-15,2025-06-21,7,Semua kategori,PROMOSI SINTETIS: tanggal dan discount adalah asumsi simulasi
+PR-008,Promo Kemerdekaan,2025-08-14,2025-08-18,6,Semua kategori,PROMOSI SINTETIS: tanggal dan discount adalah asumsi simulasi
+PR-009,Harbolnas 11.11,2025-11-09,2025-11-12,9,Semua kategori,PROMOSI SINTETIS: tanggal dan discount adalah asumsi simulasi
+PR-010,Harbolnas 12.12,2025-12-10,2025-12-13,10,Semua kategori,PROMOSI SINTETIS: tanggal dan discount adalah asumsi simulasi
+PR-011,Promo Awal Tahun,2026-01-10,2026-01-15,5,Semua kategori,PROMOSI SINTETIS: tanggal dan discount adalah asumsi simulasi
+PR-012,Promo Tengah Tahun,2026-06-15,2026-06-21,7,Semua kategori,PROMOSI SINTETIS: tanggal dan discount adalah asumsi simulasi
+PR-013,Promo Kemerdekaan,2026-08-14,2026-08-18,6,Semua kategori,PROMOSI SINTETIS: tanggal dan discount adalah asumsi simulasi

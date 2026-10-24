@@ -1,0 +1,70 @@
+file_name,column_name,data_type,constraint_role,description_id,table_note
+campaigns.csv,campaign_id,TEXT,PK / nullable FK,ID kampanye promo sintetis; sales tanpa promo dikosongkan,Kampanye dan diskon yang disimulasikan.
+campaigns.csv,campaign_name,TEXT,required,Nama simulasi promosi,Kampanye dan diskon yang disimulasikan.
+campaigns.csv,start_date,DATE,required,Tanggal mulai kampanye simulasi,Kampanye dan diskon yang disimulasikan.
+campaigns.csv,end_date,DATE,required,Tanggal berakhir kampanye simulasi,Kampanye dan diskon yang disimulasikan.
+campaigns.csv,max_discount_pct,INTEGER,required,Persen promo pada periode simulasi,Kampanye dan diskon yang disimulasikan.
+campaigns.csv,scope,TEXT,required,Cakupan kategori untuk promo rekaan,Kampanye dan diskon yang disimulasikan.
+campaigns.csv,data_origin,TEXT,required,Penegasan bahwa promosi disimulasikan,Kampanye dan diskon yang disimulasikan.
+category.csv,category_id,TEXT,PK / FK,ID kategori produk,"Seluruh produk hanya Apple, kategori ringkas."
+category.csv,category_name,TEXT,required,"Kategori: iPhone, Mac, iPad, Apple Watch, AirPods","Seluruh produk hanya Apple, kategori ringkas."
+daily_product_sales.csv,date,DATE,composite PK,Tanggal pengamatan dalam panel harian,Panel sudah diisi zeros untuk waktu ketersediaan; bukan aktivitas riil.
+daily_product_sales.csv,store_id,TEXT,PK / FK,ID gerai fiktif di Indonesia,Panel sudah diisi zeros untuk waktu ketersediaan; bukan aktivitas riil.
+daily_product_sales.csv,product_id,TEXT,PK / FK,ID model produk Apple,Panel sudah diisi zeros untuk waktu ketersediaan; bukan aktivitas riil.
+daily_product_sales.csv,units_sold,INTEGER,required,"Total unit hari×cabang×produk, termasuk nol",Panel sudah diisi zeros untuk waktu ketersediaan; bukan aktivitas riil.
+daily_product_sales.csv,transaction_count,INTEGER,required,"Jumlah event sale hari×cabang×produk, termasuk nol",Panel sudah diisi zeros untuk waktu ketersediaan; bukan aktivitas riil.
+daily_product_sales.csv,gross_revenue_idr,BIGINT,required,Total gross_amount_idr untuk panel harian,Panel sudah diisi zeros untuk waktu ketersediaan; bukan aktivitas riil.
+daily_product_sales.csv,discount_total_idr,BIGINT,required,Total diskon IDR untuk panel harian,Panel sudah diisi zeros untuk waktu ketersediaan; bukan aktivitas riil.
+daily_product_sales.csv,net_revenue_idr,BIGINT,required,Total net_amount_idr untuk panel harian,Panel sudah diisi zeros untuk waktu ketersediaan; bukan aktivitas riil.
+daily_product_sales.csv,campaign_active,INTEGER,required,1 jika ada kampanye sintetis aktif pada tanggal tersebut,Panel sudah diisi zeros untuk waktu ketersediaan; bukan aktivitas riil.
+price_sources.csv,product_id,TEXT,PK / FK,ID model produk Apple,Rekap harga acuan retailer; gunakan price_basis dan source_url.
+price_sources.csv,product_name,TEXT,required,Nama model produk; bukan SKU Apple resmi,Rekap harga acuan retailer; gunakan price_basis dan source_url.
+price_sources.csv,reference_price_idr,BIGINT,required,"Harga acuan katalog reseller dalam rupiah, dipantau 2026-10-25",Rekap harga acuan retailer; gunakan price_basis dan source_url.
+price_sources.csv,currency,TEXT,required,Kode ISO IDR,Rekap harga acuan retailer; gunakan price_basis dan source_url.
+price_sources.csv,source_name,TEXT,required,Penyedia referensi harga,Rekap harga acuan retailer; gunakan price_basis dan source_url.
+price_sources.csv,price_observed_date,DATE,required,Tanggal referensi penelusuran harga,Rekap harga acuan retailer; gunakan price_basis dan source_url.
+price_sources.csv,price_basis,TEXT,required,"Jenis harga: starting, variant listed, atau category menu",Rekap harga acuan retailer; gunakan price_basis dan source_url.
+price_sources.csv,source_url,TEXT,required,URL sumber referensi harga,Rekap harga acuan retailer; gunakan price_basis dan source_url.
+products.csv,product_id,TEXT,PK / FK,ID model produk Apple,"Harga acuan hanya satu konfigurasi dasar atau tampilan mulai dari, bukan seluruh varian."
+products.csv,product_name,TEXT,required,Nama model produk; bukan SKU Apple resmi,"Harga acuan hanya satu konfigurasi dasar atau tampilan mulai dari, bukan seluruh varian."
+products.csv,category_id,TEXT,PK / FK,ID kategori produk,"Harga acuan hanya satu konfigurasi dasar atau tampilan mulai dari, bukan seluruh varian."
+products.csv,variant_description,TEXT,required,Deskripsi dasar kapasitas/perangkat; beberapa varian asumsi,"Harga acuan hanya satu konfigurasi dasar atau tampilan mulai dari, bukan seluruh varian."
+products.csv,reference_price_idr,BIGINT,required,"Harga acuan katalog reseller dalam rupiah, dipantau 2026-10-25","Harga acuan hanya satu konfigurasi dasar atau tampilan mulai dari, bukan seluruh varian."
+products.csv,currency,TEXT,required,Kode ISO IDR,"Harga acuan hanya satu konfigurasi dasar atau tampilan mulai dari, bukan seluruh varian."
+products.csv,simulated_available_from,DATE,required,Tanggal pertama produk diikutsertakan dalam simulasi; bukan selalu tanggal resmi,"Harga acuan hanya satu konfigurasi dasar atau tampilan mulai dari, bukan seluruh varian."
+products.csv,simulated_available_until,DATE,required,Tanggal terakhir diikutsertakan dalam simulasi,"Harga acuan hanya satu konfigurasi dasar atau tampilan mulai dari, bukan seluruh varian."
+products.csv,price_source,TEXT,required,Nama sumber harga,"Harga acuan hanya satu konfigurasi dasar atau tampilan mulai dari, bukan seluruh varian."
+products.csv,price_observed_date,DATE,required,Tanggal referensi penelusuran harga,"Harga acuan hanya satu konfigurasi dasar atau tampilan mulai dari, bukan seluruh varian."
+products.csv,price_basis,TEXT,required,"Jenis harga: starting, variant listed, atau category menu","Harga acuan hanya satu konfigurasi dasar atau tampilan mulai dari, bukan seluruh varian."
+products.csv,price_source_url,TEXT,required,URL halaman sumber katalog harga,"Harga acuan hanya satu konfigurasi dasar atau tampilan mulai dari, bukan seluruh varian."
+products.csv,price_notes,TEXT,required,Peringatan bahwa harga ini bukan price history,"Harga acuan hanya satu konfigurasi dasar atau tampilan mulai dari, bukan seluruh varian."
+sales.csv,sale_id,TEXT,PK / FK,ID event penjualan sintetis; unik,Fakta sintetis (bukan transaksi retailer sungguhan).
+sales.csv,sale_date,DATE,required,Tanggal penjualan sintetis,Fakta sintetis (bukan transaksi retailer sungguhan).
+sales.csv,store_id,TEXT,PK / FK,ID gerai fiktif di Indonesia,Fakta sintetis (bukan transaksi retailer sungguhan).
+sales.csv,product_id,TEXT,PK / FK,ID model produk Apple,Fakta sintetis (bukan transaksi retailer sungguhan).
+sales.csv,quantity,INTEGER,required,Unit Apple yang dibeli pada event (1–3),Fakta sintetis (bukan transaksi retailer sungguhan).
+sales.csv,unit_price_idr,BIGINT,required,"Harga dasar acuan sebelum diskon per unit, bukan struk aktual",Fakta sintetis (bukan transaksi retailer sungguhan).
+sales.csv,discount_pct,INTEGER,required,Persentase diskon sintetis,Fakta sintetis (bukan transaksi retailer sungguhan).
+sales.csv,gross_amount_idr,BIGINT,required,quantity × unit_price_idr,Fakta sintetis (bukan transaksi retailer sungguhan).
+sales.csv,discount_amount_idr,BIGINT,required,Diskon sintetis dalam IDR,Fakta sintetis (bukan transaksi retailer sungguhan).
+sales.csv,net_amount_idr,BIGINT,required,gross_amount_idr - discount_amount_idr,Fakta sintetis (bukan transaksi retailer sungguhan).
+sales.csv,payment_method,TEXT,required,"Jenis pembayaran Indonesia (transfer, QRIS, dst.)",Fakta sintetis (bukan transaksi retailer sungguhan).
+sales.csv,sales_channel,TEXT,required,Online atau Offline,Fakta sintetis (bukan transaksi retailer sungguhan).
+sales.csv,campaign_id,TEXT,PK / nullable FK,ID kampanye promo sintetis; sales tanpa promo dikosongkan,Fakta sintetis (bukan transaksi retailer sungguhan).
+sales.csv,sale_status,TEXT,required,Semua event terhitung sebagai Selesai,Fakta sintetis (bukan transaksi retailer sungguhan).
+stores.csv,store_id,TEXT,PK / FK,ID gerai fiktif di Indonesia,Nama toko sepenuhnya rekaan; kota dan provinsi adalah nyata.
+stores.csv,store_name,TEXT,required,Nama gerai rekaan; tidak mewakili reseller nyata,Nama toko sepenuhnya rekaan; kota dan provinsi adalah nyata.
+stores.csv,city,TEXT,required,Kota nyata di Indonesia,Nama toko sepenuhnya rekaan; kota dan provinsi adalah nyata.
+stores.csv,province,TEXT,required,Provinsi Indonesia,Nama toko sepenuhnya rekaan; kota dan provinsi adalah nyata.
+stores.csv,country,TEXT,required,Indonesia,Nama toko sepenuhnya rekaan; kota dan provinsi adalah nyata.
+stores.csv,region,TEXT,required,Pengelompokan wilayah Indonesia,Nama toko sepenuhnya rekaan; kota dan provinsi adalah nyata.
+stores.csv,store_type,TEXT,required,Jenis toko; simulasi,Nama toko sepenuhnya rekaan; kota dan provinsi adalah nyata.
+stores.csv,simulated_opening_date,DATE,required,Pembukaan cabang fiktif untuk simulasi,Nama toko sepenuhnya rekaan; kota dan provinsi adalah nyata.
+stores.csv,simulated_traffic_index,NUMERIC,required,Bobot rekayasa permintaan cabang; bukan trafik riil,Nama toko sepenuhnya rekaan; kota dan provinsi adalah nyata.
+warranty.csv,claim_id,TEXT,PK,ID klaim sintetis,Klaim sintetis; keterlambatan hingga 330 hari.
+warranty.csv,claim_date,DATE,required,Tanggal klaim setelah transaksi,Klaim sintetis; keterlambatan hingga 330 hari.
+warranty.csv,sale_id,TEXT,PK / FK,ID event penjualan sintetis; unik,Klaim sintetis; keterlambatan hingga 330 hari.
+warranty.csv,claim_type,TEXT,required,Jenis masalah pada perangkat untuk simulasi,Klaim sintetis; keterlambatan hingga 330 hari.
+warranty.csv,repair_status,TEXT,required,Status proses layanan klaim,Klaim sintetis; keterlambatan hingga 330 hari.
+warranty.csv,resolution_days,INTEGER,nullable,Lama penyelesaian klaim; kosong jika belum selesai/ditolak,Klaim sintetis; keterlambatan hingga 330 hari.
+warranty.csv,record_origin,TEXT,required,Semua klaim merupakan simulasi,Klaim sintetis; keterlambatan hingga 330 hari.

@@ -1,0 +1,40 @@
+{
+  "name": "Apple Retail Indonesia - Synthetic Data Science Case Study",
+  "generated_on": "2026-10-24",
+  "seed": 20261025,
+  "history_start": "2024-01-01",
+  "history_end": "2026-09-30",
+  "currency": "IDR",
+  "price_reference_observed_date": "2026-10-25",
+  "price_reference_type": "advertised retailer catalog/starting price anchor; not actual historical realized sales prices",
+  "sale_data_type": "fully synthetic; not Apple/Digimap actual transactions",
+  "store_data_type": "fictional store network (city/province are real places)",
+  "historical_prices_are_simulated": true,
+  "rows": {
+    "category.csv": 5,
+    "products.csv": 24,
+    "stores.csv": 30,
+    "campaigns.csv": 13,
+    "sales.csv": 205776,
+    "daily_product_sales.csv": 451960,
+    "warranty.csv": 3060,
+    "price_sources.csv": 24
+  },
+  "total_units": 231866,
+  "net_revenue_idr": 2123039475000,
+  "total_discount_idr": 19568459000,
+  "notes": [
+    "Calendar-based campaign and store opening dates are synthetic assumptions.",
+    "Dates for iPhone 16 and 17 availability are sourced from Apple Indonesia; most others conservatively simulated.",
+    "Sourced October 2026 catalog prices should NOT be interpreted as actual 2024 or 2025 market prices.",
+    "Customer data and store identities are deliberately not copied from real people/retail chains."
+  ],
+  "original_zip_name": "apple-retail-sales-dataset(1).zip",
+  "original_counts": {
+    "category.csv": 10,
+    "products.csv": 89,
+    "sales.csv": 1040200,
+    "stores.csv": 75,
+    "warranty.csv": 30000
+  }
+}

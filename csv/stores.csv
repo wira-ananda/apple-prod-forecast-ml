@@ -1,0 +1,31 @@
+store_id,store_name,city,province,country,region,store_type,simulated_opening_date,simulated_traffic_index
+ST-001,Nusantara Digital Simulasi - Jakarta Selatan,Jakarta Selatan,DKI Jakarta,Indonesia,Jawa,Mitra Ritel Fiktif,2024-01-01,1.45
+ST-002,Nusantara Digital Simulasi - Jakarta Pusat,Jakarta Pusat,DKI Jakarta,Indonesia,Jawa,Mitra Ritel Fiktif,2024-01-01,1.48
+ST-003,Nusantara Digital Simulasi - Jakarta Barat,Jakarta Barat,DKI Jakarta,Indonesia,Jawa,Mitra Ritel Fiktif,2024-01-01,1.36
+ST-004,Nusantara Digital Simulasi - Tangerang Selatan,Tangerang Selatan,Banten,Indonesia,Jawa,Mitra Ritel Fiktif,2024-01-01,1.28
+ST-005,Nusantara Digital Simulasi - Tangerang,Tangerang,Banten,Indonesia,Jawa,Mitra Ritel Fiktif,2024-01-01,1.1
+ST-006,Nusantara Digital Simulasi - Bekasi,Bekasi,Jawa Barat,Indonesia,Jawa,Mitra Ritel Fiktif,2024-01-01,1.12
+ST-007,Nusantara Digital Simulasi - Depok,Depok,Jawa Barat,Indonesia,Jawa,Mitra Ritel Fiktif,2024-01-01,0.96
+ST-008,Nusantara Digital Simulasi - Bandung,Bandung,Jawa Barat,Indonesia,Jawa,Mitra Ritel Fiktif,2024-01-01,1.19
+ST-009,Nusantara Digital Simulasi - Bogor,Bogor,Jawa Barat,Indonesia,Jawa,Mitra Ritel Fiktif,2024-01-01,0.99
+ST-010,Nusantara Digital Simulasi - Semarang,Semarang,Jawa Tengah,Indonesia,Jawa,Mitra Ritel Fiktif,2024-01-01,1.03
+ST-011,Nusantara Digital Simulasi - Surakarta,Surakarta,Jawa Tengah,Indonesia,Jawa,Mitra Ritel Fiktif,2024-01-01,0.82
+ST-012,Nusantara Digital Simulasi - Yogyakarta,Yogyakarta,DI Yogyakarta,Indonesia,Jawa,Mitra Ritel Fiktif,2024-01-01,1.02
+ST-013,Nusantara Digital Simulasi - Surabaya,Surabaya,Jawa Timur,Indonesia,Jawa,Mitra Ritel Fiktif,2024-01-01,1.35
+ST-014,Nusantara Digital Simulasi - Malang,Malang,Jawa Timur,Indonesia,Jawa,Mitra Ritel Fiktif,2024-01-01,0.96
+ST-015,Nusantara Digital Simulasi - Denpasar,Denpasar,Bali,Indonesia,Bali Nusa Tenggara,Mitra Ritel Fiktif,2024-01-01,1.13
+ST-016,Nusantara Digital Simulasi - Mataram,Mataram,Nusa Tenggara Barat,Indonesia,Bali Nusa Tenggara,Mitra Ritel Fiktif,2024-01-01,0.78
+ST-017,Nusantara Digital Simulasi - Makassar,Makassar,Sulawesi Selatan,Indonesia,Sulawesi,Mitra Ritel Fiktif,2024-01-01,1.1
+ST-018,Nusantara Digital Simulasi - Gowa,Gowa,Sulawesi Selatan,Indonesia,Sulawesi,Mitra Ritel Fiktif,2024-01-01,0.71
+ST-019,Nusantara Digital Simulasi - Manado,Manado,Sulawesi Utara,Indonesia,Sulawesi,Mitra Ritel Fiktif,2024-01-01,0.82
+ST-020,Nusantara Digital Simulasi - Balikpapan,Balikpapan,Kalimantan Timur,Indonesia,Kalimantan,Mitra Ritel Fiktif,2024-01-01,0.93
+ST-021,Nusantara Digital Simulasi - Samarinda,Samarinda,Kalimantan Timur,Indonesia,Kalimantan,Mitra Ritel Fiktif,2024-01-01,0.87
+ST-022,Nusantara Digital Simulasi - Pontianak,Pontianak,Kalimantan Barat,Indonesia,Kalimantan,Mitra Ritel Fiktif,2024-01-01,0.78
+ST-023,Nusantara Digital Simulasi - Banjarmasin,Banjarmasin,Kalimantan Selatan,Indonesia,Kalimantan,Mitra Ritel Fiktif,2024-01-01,0.75
+ST-024,Nusantara Digital Simulasi - Medan,Medan,Sumatera Utara,Indonesia,Sumatera,Mitra Ritel Fiktif,2024-01-01,1.22
+ST-025,Nusantara Digital Simulasi - Palembang,Palembang,Sumatera Selatan,Indonesia,Sumatera,Mitra Ritel Fiktif,2024-01-01,0.86
+ST-026,Nusantara Digital Simulasi - Pekanbaru,Pekanbaru,Riau,Indonesia,Sumatera,Mitra Ritel Fiktif,2025-01-01,0.9
+ST-027,Nusantara Digital Simulasi - Padang,Padang,Sumatera Barat,Indonesia,Sumatera,Mitra Ritel Fiktif,2025-01-01,0.74
+ST-028,Nusantara Digital Simulasi - Batam,Batam,Kepulauan Riau,Indonesia,Sumatera,Mitra Ritel Fiktif,2025-01-01,1.05
+ST-029,Nusantara Digital Simulasi - Lampung,Lampung,Lampung,Indonesia,Sumatera,Mitra Ritel Fiktif,2025-01-01,0.8
+ST-030,Nusantara Digital Simulasi - Jayapura,Jayapura,Papua,Indonesia,Maluku Papua,Mitra Ritel Fiktif,2025-01-01,0.66

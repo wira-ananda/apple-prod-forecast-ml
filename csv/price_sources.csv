@@ -1,0 +1,25 @@
+product_id,product_name,reference_price_idr,currency,source_name,price_observed_date,price_basis,source_url
+APL-001,iPhone 15,12499000,IDR,Digimap Indonesia,2026-10-25,harga_mulai_dari,https://www.digimap.co.id/collections/iphone-15
+APL-002,iPhone 16,14999000,IDR,Digimap Indonesia,2026-10-25,harga_mulai_dari,https://www.digimap.co.id/collections/iphone-16
+APL-003,iPhone 16 Plus,15999000,IDR,Digimap Indonesia,2026-10-25,harga_mulai_dari,https://www.digimap.co.id/collections/iphone-16
+APL-004,iPhone 16 Pro,15499000,IDR,Digimap Indonesia,2026-10-25,harga_varian_tercantum,https://www.digimap.co.id/products/iphone-16-pro-7
+APL-005,iPhone 16 Pro Max,20499000,IDR,Digimap Indonesia,2026-10-25,harga_mulai_dari,https://www.digimap.co.id/collections/iphone-16-pro
+APL-006,iPhone 16e,8999000,IDR,Digimap Indonesia,2026-10-25,harga_menu_iphone,https://www.digimap.co.id/collections/iphone-16
+APL-007,iPhone 17,19999000,IDR,Digimap Indonesia,2026-10-25,harga_varian_tercantum,https://www.digimap.co.id/collections/iphone-complete-collection?page=1
+APL-008,iPhone 17 Pro,22999000,IDR,Digimap Indonesia,2026-10-25,harga_varian_tercantum,https://www.digimap.co.id/collections/iphone-complete-collection?page=1
+APL-009,MacBook Air 13 M1,9999000,IDR,Digimap Indonesia,2026-10-25,harga_mulai_dari,https://www.digimap.co.id/collections/macbook-air
+APL-010,MacBook Air 13 M2,13499000,IDR,Digimap Indonesia,2026-10-25,harga_mulai_dari,https://www.digimap.co.id/collections/macbook-air
+APL-011,MacBook Air 13 M3,13499000,IDR,Digimap Indonesia,2026-10-25,harga_mulai_dari,https://www.digimap.co.id/collections/macbook-air
+APL-012,MacBook Air 13 M4,15999000,IDR,Digimap Indonesia,2026-10-25,harga_mulai_dari,https://www.digimap.co.id/collections/macbook-air
+APL-013,MacBook Air 15 M4,19499000,IDR,Digimap Indonesia,2026-10-25,harga_mulai_dari,https://www.digimap.co.id/collections/macbook-air
+APL-014,Mac mini M4,9999000,IDR,Digimap Indonesia,2026-10-25,harga_mulai_dari,https://www.digimap.co.id/collections/mac-mini
+APL-015,iPad Gen 10,4499000,IDR,Digimap Indonesia,2026-10-25,harga_mulai_dari,https://www.digimap.co.id/collections/ipad
+APL-016,iPad A16 (Gen 11),8699000,IDR,Digimap Indonesia,2026-10-25,harga_varian_tercantum,https://www.digimap.co.id/products/2025-ipad-22
+APL-017,iPad Air 11 M3,10749000,IDR,Digimap Indonesia,2026-10-25,harga_mulai_dari,https://www.digimap.co.id/collections/ipad
+APL-018,iPad Air 13 M3,14149000,IDR,Digimap Indonesia,2026-10-25,harga_mulai_dari,https://www.digimap.co.id/collections/ipad
+APL-019,Apple Watch Series 10,4499000,IDR,Digimap Indonesia,2026-10-25,harga_mulai_dari,https://www.digimap.co.id/collections/apple-watch-series-10
+APL-020,Apple Watch Series 11,6799000,IDR,Digimap Indonesia,2026-10-25,harga_mulai_dari,https://www.digimap.co.id/pages/view-all-watch
+APL-021,AirPods 4,2299000,IDR,Digimap Indonesia,2026-10-25,harga_varian_tercantum,https://www.digimap.co.id/products/airpods-4
+APL-022,AirPods 4 ANC,3099000,IDR,Digimap Indonesia,2026-10-25,harga_varian_tercantum,https://www.digimap.co.id/products/airpods-4-active-noise-cancellation
+APL-023,AirPods Pro 2,3699000,IDR,Digimap Indonesia,2026-10-25,harga_menu_apple,https://www.digimap.co.id/collections/airpods-4
+APL-024,AirPods 2,1499000,IDR,Digimap Indonesia,2026-10-25,harga_menu_apple,https://www.digimap.co.id/collections/airpods-4
